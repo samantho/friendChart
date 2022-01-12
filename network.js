@@ -76,7 +76,10 @@ var data = {
         {"id": "Mayra"},
         {"id": "Jackie"},
         {"id": "Madeline"},
-        {"id": "Alex"}
+        {"id": "Alex"},
+        {"id": "Teddy Roosevelt"},
+        {"id": "President Ivan"},
+        {"id": "Elizabeth Warren"}
     ],
     "edges": [
       { "from": "Sam", "to": "Diana" },
@@ -138,7 +141,39 @@ var data = {
       { "from": "Diana", "to": "Julie" },
       { "from": "Diana", "to": "Sam P" },
       { "from": "Diana", "to": "Nasiha" },
-      { "from": "Diana", "to": "Nicole" }
+      { "from": "Diana", "to": "Nicole" },
+      { "from": "Diana", "to": "Arja" },
+      { "from": "Diana", "to": "Riley"},
+      { "from": "Diana", "to": "Priya"},
+      { "from": "Diana", "to": "Alex"},
+      { "from": "Diana", "to": "Myra"},
+      { "from": "Diana", "to": "Maddie"},
+      { "from": "Diana", "to": "Cristina"},
+
+
+      { "from": "Sam", "to": "Emma"},
+      { "from": "Sam", "to": "Nicole"},
+      { "from": "Sam", "to": "Ellie"},
+      { "from": "Sam", "to": "Taylor"},
+      { "from": "Sam", "to": "Richard"},
+      { "from": "Sam", "to": "Gwendolyn"},
+      { "from": "Sam", "to": "Aaron"},
+      { "from": "Sam", "to": "Kaelyn"},
+      { "from": "Sam", "to": "Marina"},
+      { "from": "Sam", "to": "Megan"},
+      { "from": "Sam", "to": "Katie D"},
+      { "from": "Sam", "to": "Elizabeth"},
+      { "from": "Sam", "to": "Hope"},
+      { "from": "Sam", "to": "Riley"},
+      { "from": "Sam", "to": "Sarah Anne"},
+      { "from": "Sam", "to": "Sarah"},
+      { "from": "Sam", "to": "Arja"},
+      { "from": "Sam", "to": "Priya"},
+      { "from": "Sam", "to": "Reynolds"},
+      { "from": "Sam", "to": "Madeline"},
+      { "from": "Sam", "to": "Sam P"},
+
+      { "from": "Reynolds", "to": "Hellena Bodham Carter"}
     ]
 }
 
