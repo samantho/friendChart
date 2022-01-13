@@ -1,6 +1,6 @@
 var data = {
     "nodes": [
-        {"id": "Sam"},
+        {"id": "Sam", "group":"main"},
         {"id": "Diana"},
         {"id": "Emily"},
         {"id": "Kelly"},
@@ -12,7 +12,7 @@ var data = {
         {"id": "Faith"},
         {"id": "Emma"},
         {"id": "Biden"},
-        {"id": "Kamala"},
+        {"id": "Kamala Harris"},
         {"id": "Angelina Jolie"},
         {"id": "Kevin"},
         {"id": "Ellen"},
@@ -47,7 +47,6 @@ var data = {
         {"id": "Lesley"},
         {"id": "Gui"},
         {"id": "Stuti"},
-        {"id": "Teddy R"},
         {"id": "Ashley"},
         {"id": "Elenor"},
         {"id": "Simon"},
@@ -79,7 +78,10 @@ var data = {
         {"id": "Alex"},
         {"id": "Teddy Roosevelt"},
         {"id": "President Ivan"},
-        {"id": "Elizabeth Warren"}
+        {"id": "Elizabeth Warren"},
+        {"id": "Samia"},
+        {"id": "Nima"},
+        {"id":"Brianna"}
     ],
     "edges": [
       { "from": "Sam", "to": "Diana" },
@@ -89,37 +91,21 @@ var data = {
       { "from": "Sam", "to": "Alexis" },
       { "from": "Sam", "to": "Preston" },
 
-      { "from": "Diana", "to": "Sam" },
       { "from": "Diana", "to": "Emily" },
       { "from": "Diana", "to": "Kelly" },
       { "from": "Diana", "to": "Rebecca" },
       { "from": "Diana", "to": "Alexis" },
       { "from": "Diana", "to": "Preston" },
 
-      { "from": "Emily", "to": "Diana" },
-      { "from": "Emily", "to": "Sam" },
       { "from": "Emily", "to": "Kelly" },
       { "from": "Emily", "to": "Rebecca" },
       { "from": "Emily", "to": "Alexis" },
 
-      { "from": "Kelly", "to": "Diana" },
-      { "from": "Kelly", "to": "Emily" },
-      { "from": "Kelly", "to": "Sam" },
       { "from": "Kelly", "to": "Rebecca" },
       { "from": "Kelly", "to": "Alexis" },
       { "from": "Kelly", "to": "Preston" },
 
-      { "from": "Rebecca", "to": "Diana" },
-      { "from": "Rebecca", "to": "Emily" },
-      { "from": "Rebecca", "to": "Kelly" },
-      { "from": "Rebecca", "to": "Sam" },
       { "from": "Rebecca", "to": "Alexis" },
-
-      { "from": "Alexis", "to": "Diana" },
-      { "from": "Alexis", "to": "Emily" },
-      { "from": "Alexis", "to": "Kelly" },
-      { "from": "Alexis", "to": "Rebecca" },
-      { "from": "Alexis", "to": "Sam" },
 
       { "from": "Diana", "to": "Ellie" },
       { "from": "Diana", "to": "Patrick" },
@@ -146,9 +132,11 @@ var data = {
       { "from": "Diana", "to": "Riley"},
       { "from": "Diana", "to": "Priya"},
       { "from": "Diana", "to": "Alex"},
-      { "from": "Diana", "to": "Myra"},
+      { "from": "Diana", "to": "Mayra"},
       { "from": "Diana", "to": "Maddie"},
       { "from": "Diana", "to": "Cristina"},
+      { "from": "Diana", "to": "Samia"},
+      { "from": "Diana", "to": "Nima"},
 
 
       { "from": "Sam", "to": "Emma"},
@@ -173,7 +161,60 @@ var data = {
       { "from": "Sam", "to": "Madeline"},
       { "from": "Sam", "to": "Sam P"},
 
-      { "from": "Reynolds", "to": "Hellena Bodham Carter"}
+      { "from": "Reynolds", "to": "Hellena Bodham Carter"},
+      { "from": "Biden", "to": "Kamala Harris"},
+      { "from": "Biden", "to": "Elizabeth Warren"},
+      { "from": "Biden", "to": "Preston"},
+      { "from": "Elizabeth Warren", "to": "Kamala Harris"},
+      { "from": "Aaron", "to": "Elizabeth Warren"},
+      { "from": "Alice", "to": "Teddy Roosevelt"},
+      { "from": "Alice", "to": "President Ivan"},
+      { "from": "Biden", "to": "President Ivan"},
+      { "from": "Preston", "to": "Angelina Jolie"},
+
+      { "from": "Nasiha", "to": "Sam P"},
+      { "from": "Nasiha", "to": "Olivia"},
+      { "from": "Nasiha", "to": "Julie"},
+      { "from": "Nasiha", "to": "Gigi"},
+      { "from": "Nasiha", "to": "Nymisha"},
+      { "from": "Nasiha", "to": "Wendy"},
+      { "from": "Nasiha", "to": "Khan"},
+      { "from": "Nasiha", "to": "Mayra"},
+      { "from": "Nasiha", "to": "Alex"},
+      { "from": "Nasiha", "to": "Priya"},
+      { "from": "Nasiha", "to": "Arja"},
+      { "from": "Nasiha", "to": "Nima"},
+      { "from": "Nasiha", "to": "Max"},
+      { "from": "Nasiha", "to": "Jasmine"},
+
+      { "from": "Gigi", "to": "Nicole"},
+      { "from": "Gigi", "to": "Olivia"},
+      { "from": "Gigi", "to": "Zain"},
+      { "from": "Gigi", "to": "Jasmine"},
+      { "from": "Gigi", "to": "Maddie"},
+      { "from": "Gigi", "to": "Brenna"},
+      { "from": "Gigi", "to": "Corrie"},
+      { "from": "Gigi", "to": "Khan"},
+      { "from": "Gigi", "to": "Arja"},
+      { "from": "Gigi", "to": "Nima"},
+      { "from": "Gigi", "to": "Nymisha"},
+      { "from": "Gigi", "to": "Wendy"},
+      { "from": "Gigi", "to": "Flora"},
+      { "from": "Gigi", "to": "Alex"},
+      { "from": "Gigi", "to": "Priya"},
+
+      { "from": "Priya", "to": "Julie"},
+      { "from": "Priya", "to": "Olivia"},
+      { "from": "Priya", "to": "Khan"},
+      { "from": "Priya", "to": "Wendy"},
+      { "from": "Priya", "to": "Mayra"},
+      { "from": "Priya", "to": "Jasmine"},
+      { "from": "Priya", "to": "Alex"},
+      { "from": "Priya", "to": "Madeline"},
+      { "from": "Priya", "to": "Jackie"},
+      { "from": "Priya", "to": "Arja"},
+      { "from": "Priya", "to": "Riley"},
+      { "from": "Priya", "to": "Lesley"}
     ]
 }
 
@@ -181,6 +222,7 @@ var data = {
 var chart = anychart.graph(data);
 var nodes = chart.nodes();
 var edges = chart.edges();
+
 
 
 // Normal
